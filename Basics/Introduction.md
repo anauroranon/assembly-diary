@@ -1,4 +1,7 @@
 # Assembly basics
+Each processor family has its unique instructions for performing different tasks like input/output operations, screen display, and other operations. These instructions are known as "machine language instructions."
+
+Machine language instructions are composed of binary code, consisting of 1's and 0's, which is the only language a processor can directly understand. However, working directly with machine language can be challenging and convoluted in software development. Therefore, a low-level language called assembly language is created specifically for each processor family. Assembly language represents instructions using symbolic codes that are more readable and comprehensible to programmers.
 ## Definition
 Assembly is a low-level programming language that bridges the gap between high-level programming languages and the hardware of a 
 computer system. It uses symbolic instructions and memory addresses to manipulate the underlying hardware directly. 
@@ -6,6 +9,8 @@ Assembly code is translated into machine code and provides precise control over 
 making it suitable for tasks that require performance optimization or low-level hardware interaction.
 
 ![From high level language, to assembly, to machine code](https://www.cs.mtsu.edu/~xyang/images/computer-languages.png)
+
+
 
 ### High level language
 - High-level languages (e.g., Python, C++, Java) are designed to be more human-readable and programmer-friendly.
