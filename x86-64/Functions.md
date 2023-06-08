@@ -1,5 +1,9 @@
 # Functions
 
+## add
+**ADD source, destination**
+Adds together its two operands, storing the result in its first operand. If both operands are registers, at most one operand may be a memory location.
+
 ## cdqe
 **CDQE**, Convert Doubleword to Quadword 
 Double the size of the source operand. Sign extends the content of the source 32-bit register of the previous instruction to the 64-bit
