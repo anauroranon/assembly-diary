@@ -1,8 +1,18 @@
-# Functions
+# Assembly Functions
 
 ## add
 **ADD source, destination**
 Adds together its two operands, storing the result in its first operand. If both operands are registers, at most one operand may be a memory location.
+
+## test
+**TEST r1, r2**
+
+### test eax, eax
+The instruction "test eax, eax" in assembly language is used to perform a bitwise AND operation between the contents of the EAX register and itself. The purpose of this instruction is primarily to test the value of the EAX register without modifying its contents.
+
+The "test" instruction affects the flags in the processor's status register (typically the EFLAGS register). Specifically, it sets the zero flag (ZF) based on the result of the bitwise AND operation. If the result is zero, indicating that all bits in EAX are cleared, the zero flag is set (ZF=1). If the result is non-zero, indicating that at least one bit in EAX is set, the zero flag is cleared (ZF=0).
+
+By checking the state of the zero flag after the "test" instruction, you can determine whether the value in EAX is zero or non-zero, without altering the contents of EAX. This can be useful in conditional branching or decision-making within a program.
 
 ## cdqe
 **CDQE**, Convert Doubleword to Quadword 
